@@ -14,7 +14,7 @@ import java.util.ArrayList;
  */
 
 public class SongAdapter extends ArrayAdapter<Song> {
-    public SongAdapater(Activity context, ArrayList<Song> songs) {
+    public SongAdapter(Activity context, ArrayList<Song> songs) {
         super(context, 0, songs);
     }
         @Override
@@ -41,5 +41,6 @@ public class SongAdapter extends ArrayAdapter<Song> {
             TextView albumTextView = (TextView) songItemView.findViewById(R.id.album_name);
             //Get the album name from the current Song object and set this text on the Text View
 
+            return songItemView;
         }
 }
