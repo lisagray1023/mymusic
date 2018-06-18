@@ -32,15 +32,18 @@ public class SongAdapter extends ArrayAdapter<Song> {
             //Find the TextView in the song_item.xml layout with the ID song_title
             TextView songTextView = (TextView) songItemView.findViewById(R.id.song_title);
             //Get the song title from the current Song object and set this text on the Text View
+            songTextView.setText(currentSong.getSongTitle());
 
 
             //Find the TextView in the song_item.xml layout with the ID artist_name
             TextView artistTextView = (TextView) songItemView.findViewById(R.id.artist_name);
             //Get the artist name from the current Song object and set this text on the Text View
+            artistTextView.setText(currentSong.getArtistName());
 
             //Find the TextView in the song_item.xml layout with the ID album_name
             TextView albumTextView = (TextView) songItemView.findViewById(R.id.album_name);
             //Get the album name from the current Song object and set this text on the Text View
+            albumTextView.setText(currentSong.getAlbumTitle());
 
             return songItemView;
         }
