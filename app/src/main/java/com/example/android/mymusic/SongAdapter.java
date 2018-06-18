@@ -1,6 +1,7 @@
 package com.example.android.mymusic;
 
 import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +15,7 @@ import java.util.ArrayList;
  */
 
 public class SongAdapter extends ArrayAdapter<Song> {
-    public SongAdapter(Activity context, ArrayList<Song> songs) {
+    public SongAdapter(Context context, ArrayList<Song> songs) {
         super(context, 0, songs);
     }
         @Override

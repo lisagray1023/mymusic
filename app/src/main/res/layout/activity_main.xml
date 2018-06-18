@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/grid"
-    tools:context="com.example.android.mymusic.MainActivity">
+    android:id="@+id/list_view"
+    tools:context="com.example.android.mymusic.MainActivity"/>
 
     <!-- <TextView
         android:id="@+id/song_title"
@@ -27,5 +27,3 @@
         android:textSize="14sp"
         android:textStyle="italic"/> -->
 
-
-</GridView>
