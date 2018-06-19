@@ -2,6 +2,8 @@ package com.example.android.mymusic;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListView;
 
@@ -25,11 +27,13 @@ public class MainActivity extends AppCompatActivity {
         SongAdapter adapter = new SongAdapter(this, songs);
 
      //Find the object in the view hierarchy of the Main Activity.
-        //There should be a GridView with the view ID called grid which is declared in the activity_main.xml file
+        //There should be a ListView with the view ID called list_view which is declared in the activity_main.xml file
         ListView listView = findViewById(R.id.list_view);
 
-     //Make the Grid View use the Song Adapter we created above, so that the GridView will display the song item for each Song in the list.
+     //Make the List View use the Song Adapter we created above, so that the ListView will display the song item for each Song in the list.
         listView.setAdapter(adapter);
+
+
 
     }
 
