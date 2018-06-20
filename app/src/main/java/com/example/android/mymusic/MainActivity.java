@@ -1,7 +1,9 @@
 package com.example.android.mymusic;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Property;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -34,8 +36,6 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
 
 
-
     }
-
 
 }
