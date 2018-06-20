@@ -24,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         songs.add(new Song("Love Song","Sara Bareilles","Little Voice"));
         songs.add(new Song("Afterlife","Ingrid Michaelson","Lights Out"));
         songs.add(new Song("The Way I Am","Ingrid Michaelson","Girls and Boys"));
+        songs.add(new Song("Bubbly", "Colbie Caillat", "Coco"));
+        songs.add(new Song("Fallin' For You", "Colbie Caillat", "Breakthrough"));
+        songs.add(new Song("Almost Lover", "A Fine Frenzy", "One Cell in the Sea"));
+        songs.add(new Song("What I Wouldn't Do", "A Fine Frenzy", "Bomb in a Birdcage"));
 
     //Create a SongAdapter whose data source is the list of Songs.
         SongAdapter adapter = new SongAdapter(this, songs);

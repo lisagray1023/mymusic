@@ -3,6 +3,8 @@ package com.example.android.mymusic;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -34,7 +36,16 @@ public class NowPlayingActivity extends AppCompatActivity {
         artistName.setText(nowPlayingIntent.getStringExtra("ARTIST_NAME"));
         albumTitle.setText(nowPlayingIntent.getStringExtra("ALBUM_TITLE"));
 
-
+    //Find back button view and assign to a variable
+        Button backButton = (Button) findViewById(R.id.back_button);
+        //Set a click listener on the button
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mainActivityIntent = new Intent(NowPlayingActivity.this, MainActivity.class);
+                startActivity(mainActivityIntent);
+            }
+        });
     }
 
 

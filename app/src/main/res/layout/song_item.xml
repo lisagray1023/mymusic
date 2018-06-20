@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:text="Gravity"/>
+        tools:text="Gravity"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp" />
 
     <TextView
         android:id="@+id/artist_name"
@@ -21,7 +23,8 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:textStyle="normal"
-        tools:text="Sara Bareilles"/>
+        tools:text="Sara Bareilles"
+        android:layout_marginLeft="8dp" />
 
     <TextView
         android:id="@+id/album_name"
@@ -29,6 +32,8 @@
         android:layout_height="wrap_content"
         android:textSize="14sp"
         android:textStyle="italic"
-        tools:text="Little Voice"/>
+        tools:text="Little Voice"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"/>
 
 </LinearLayout>
