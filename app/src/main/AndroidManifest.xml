@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NowPlayingActivity"
-            android:label="NowPlaying"/>
+            android:label="Now Playing"/>
     </application>
 
 </manifest>

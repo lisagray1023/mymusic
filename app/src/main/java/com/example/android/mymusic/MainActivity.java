@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         songs.add(new Song("Fallin' For You", "Colbie Caillat", "Breakthrough"));
         songs.add(new Song("Almost Lover", "A Fine Frenzy", "One Cell in the Sea"));
         songs.add(new Song("What I Wouldn't Do", "A Fine Frenzy", "Bomb in a Birdcage"));
+        songs.add(new Song("Breathe", "Anna Nalick", "Wreck of the Day"));
+        songs.add(new Song("Slow Down", "Karmina", "Car Train Ship Plane"));
 
     //Create a SongAdapter whose data source is the list of Songs.
         SongAdapter adapter = new SongAdapter(this, songs);
@@ -36,10 +38,7 @@ public class MainActivity extends AppCompatActivity {
         //There should be a ListView with the view ID called list_view which is declared in the activity_main.xml file
         ListView listView = findViewById(R.id.list_view);
 
-     //Make the List View use the Song Adapter we created above, so that the ListView will display the song item for each Song in the list.
+     //Make the List View use the Song Adapter created above, so that the ListView will display the song item for each Song in the list.
         listView.setAdapter(adapter);
-
-
     }
-
 }

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/now_playing"
-        android:textSize="36dp"
+        android:textSize="36sp"
         android:textStyle="bold"
         android:gravity="center_horizontal"
         android:layout_marginLeft="16dp"
@@ -30,16 +30,16 @@
         android:layout_height="wrap_content"
         android:src="@drawable/audio_controls"
         android:layout_gravity="center"
-        android:layout_marginTop="4dp"/>
+        android:layout_marginTop="8dp"/>
 
     <TextView
         android:id="@+id/song_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Brave"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:layout_gravity="center"/>
 
     <TextView
@@ -47,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Sara Bareilles"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:layout_marginTop="4dp"
         android:layout_gravity="center"/>
 
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         tools:text="Little Voice"
         android:textStyle="italic"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:layout_marginTop="4dp"
         android:layout_gravity="center"/>
 

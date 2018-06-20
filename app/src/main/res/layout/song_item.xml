@@ -1,39 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
+    android:id="@+id/song"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/song">
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/song_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:text="Gravity"
-        android:layout_marginTop="8dp"
-        android:layout_marginLeft="8dp" />
+        tools:text="Gravity" />
 
     <TextView
         android:id="@+id/artist_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
         android:textSize="14sp"
         android:textStyle="normal"
-        tools:text="Sara Bareilles"
-        android:layout_marginLeft="8dp" />
+        tools:text="Sara Bareilles" />
 
     <TextView
         android:id="@+id/album_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
         android:textSize="14sp"
         android:textStyle="italic"
-        tools:text="Little Voice"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="8dp"/>
+        tools:text="Little Voice" />
 
 </LinearLayout>
