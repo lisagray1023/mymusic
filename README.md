@@ -2,3 +2,5 @@
 Grow with Google Android Basics Nanodegree - Multi-Screens App section "Musical Structure App" project.
 
 Since images were not required, I used one Album Cover image as a placeholder on the Now Playing page, in the future album cover art would be added to the Song object and passed through from the MainActivity to the NowPlaying activity.
+
+The app was tested on an LG G6 running Android 7.0.
