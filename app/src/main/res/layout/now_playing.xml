@@ -11,9 +11,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/now_playing"
-        android:textSize="48dp"
+        android:textSize="36dp"
         android:textStyle="bold"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/blessed_unrest"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:paddingTop="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio_controls"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"/>
 
     <TextView
         android:id="@+id/song_title"
@@ -22,7 +39,8 @@
         tools:text="Brave"
         android:textSize="30dp"
         android:textStyle="bold"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"/>
 
     <TextView
         android:id="@+id/artist_name"
@@ -30,15 +48,24 @@
         android:layout_height="wrap_content"
         tools:text="Sara Bareilles"
         android:textSize="24dp"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"/>
 
     <TextView
-        android:id="@+id/album_name"
+        android:id="@+id/album_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Little Voice"
         android:textStyle="italic"
         android:textSize="18dp"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="4dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_mymusic"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
