@@ -20,16 +20,16 @@ public class MainActivity extends AppCompatActivity {
 
      //Create an ArrayList of songs
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Brave","Sara Bareilles","The Blessed Unrest"));
-        songs.add(new Song("Love Song","Sara Bareilles","Little Voice"));
-        songs.add(new Song("Afterlife","Ingrid Michaelson","Lights Out"));
-        songs.add(new Song("The Way I Am","Ingrid Michaelson","Girls and Boys"));
-        songs.add(new Song("Bubbly", "Colbie Caillat", "Coco"));
-        songs.add(new Song("Fallin' For You", "Colbie Caillat", "Breakthrough"));
-        songs.add(new Song("Almost Lover", "A Fine Frenzy", "One Cell in the Sea"));
-        songs.add(new Song("What I Wouldn't Do", "A Fine Frenzy", "Bomb in a Birdcage"));
-        songs.add(new Song("Breathe", "Anna Nalick", "Wreck of the Day"));
-        songs.add(new Song("Slow Down", "Karmina", "Car Train Ship Plane"));
+        songs.add(new Song(getString(R.string.song1),getString(R.string.artist1),getString(R.string.album1)));
+        songs.add(new Song(getString(R.string.song2),getString(R.string.artist2),getString(R.string.album2)));
+        songs.add(new Song(getString(R.string.song3),getString(R.string.artist3),getString(R.string.album3)));
+        songs.add(new Song(getString(R.string.song4),getString(R.string.artist4),getString(R.string.album4)));
+        songs.add(new Song(getString(R.string.song5), getString(R.string.artist5), getString(R.string.album5)));
+        songs.add(new Song(getString(R.string.song6), getString(R.string.artist6), getString(R.string.album6)));
+        songs.add(new Song(getString(R.string.song7), getString(R.string.artist7), getString(R.string.album7)));
+        songs.add(new Song(getString(R.string.song8), getString(R.string.artist8), getString(R.string.album8)));
+        songs.add(new Song(getString(R.string.song9), getString(R.string.artist9), getString(R.string.album9)));
+        songs.add(new Song(getString(R.string.song10), getString(R.string.artist10), getString(R.string.album10)));
 
     //Create a SongAdapter whose data source is the list of Songs.
         SongAdapter adapter = new SongAdapter(this, songs);
