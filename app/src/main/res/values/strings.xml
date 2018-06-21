@@ -32,4 +32,6 @@
     <string name="song10">Slow Down</string>
     <string name="artist10">Karmina</string>
     <string name="album10">Car Train Ship Plane</string>
+    <string name="image_placeholder">Album Cover Art</string>
+    <string name="controls_placeholder">Audio Controls</string>
 </resources>
